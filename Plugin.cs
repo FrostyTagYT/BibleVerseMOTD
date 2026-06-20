@@ -9,9 +9,10 @@ namespace BibleVerseMOTD;
 [BepInPlugin(PluginGuid, PluginName, PluginVersion)]
 public sealed class Plugin : BaseUnityPlugin
 {
-    internal const string PluginGuid = "com.luked.bibleversemotd";
+    internal const string PluginGuid = "com.frostytagyt.bibleversemotd";
     internal const string PluginName = "Bible Verse MOTD";
-    internal const string PluginVersion = "1.2.0";
+    internal const string PluginVersion = "1.2.1";
+    internal const string PluginAuthor = "FrostyTagYT";
 
     internal static ManualLogSource Log = null!;
 
@@ -26,6 +27,6 @@ public sealed class Plugin : BaseUnityPlugin
         updaterObject.hideFlags = HideFlags.HideAndDontSave;
         updaterObject.AddComponent<BibleVerseUpdater>();
 
-        Log.LogInfo("Bible Verse MOTD v1.2 loaded — replaces text and image update boards with Bible verses.");
+        Log.LogInfo($"Bible Verse MOTD v{PluginVersion} by {PluginAuthor} — replaces text and image update boards with Bible verses.");
     }
 }

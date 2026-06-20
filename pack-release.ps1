@@ -2,7 +2,7 @@ $ErrorActionPreference = "Stop"
 
 $projectDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $gorillaTag = if ($env:GORILLA_TAG_PATH) { $env:GORILLA_TAG_PATH } else { "C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag" }
-$version = "1.2.0"
+$version = "1.2.1"
 $distDir = Join-Path $projectDir "dist"
 $packageName = "BibleVerseMOTD-FullInstall-v$version"
 $packageDir = Join-Path $distDir $packageName
@@ -46,7 +46,7 @@ Copy-Item (Join-Path $gorillaTag "BepInEx\plugins\Utilla.dll") $pluginsDest -For
 $configDest = Join-Path $packageDir "BepInEx\config"
 New-Item -ItemType Directory -Force -Path $configDest | Out-Null
 Copy-Item (Join-Path $gorillaTag "BepInEx\config\BepInEx.cfg") $configDest -Force
-Copy-Item (Join-Path $projectDir "config\com.luked.bibleversemotd.cfg") (Join-Path $configDest "com.luked.bibleversemotd.cfg") -Force
+Copy-Item (Join-Path $projectDir "config\com.frostytagyt.bibleversemotd.cfg") (Join-Path $configDest "com.frostytagyt.bibleversemotd.cfg") -Force
 
 # Docs in package
 Copy-Item (Join-Path $projectDir "INSTALL.md") (Join-Path $packageDir "INSTALL.md") -Force
@@ -55,6 +55,8 @@ Copy-Item (Join-Path $projectDir "README.md") (Join-Path $packageDir "README.md"
 
 @"
 Bible Verse MOTD - Full Install Package v$version
+Made by FrostyTagYT
+https://github.com/FrostyTagYT/BibleVerseMOTD
 =================================================
 
 1. Close Gorilla Tag

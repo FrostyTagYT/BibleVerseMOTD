@@ -6,7 +6,7 @@ Two ways to install **Bible Verse MOTD**.
 
 ## Option A — Full install package (recommended for new users)
 
-Download **`BibleVerseMOTD-FullInstall-v1.2.0.zip`** from the [latest release](https://github.com/FrostyTagYT/BibleVerseMOTD/releases/latest).
+Download **`BibleVerseMOTD-FullInstall-v1.2.1.zip`** from the [latest release](https://github.com/FrostyTagYT/BibleVerseMOTD/releases/latest).
 
 This zip includes everything that is already working on the author's PC:
 
@@ -15,7 +15,7 @@ This zip includes everything that is already working on the author's PC:
 | BepInEx | 5.4.23.5 |
 | Utilla | 1.7.0 |
 | Doorstop | 4.5.0 |
-| Bible Verse MOTD | 1.2.0 |
+| Bible Verse MOTD | 1.2.1 |
 
 ### Steps
 
@@ -39,7 +39,7 @@ This zip includes everything that is already working on the author's PC:
 Open `BepInEx/LogOutput.log` and look for:
 
 ```
-[Info   :   BepInEx] Loading [Bible Verse MOTD 1.2.0]
+[Info   :   BepInEx] Loading [Bible Verse MOTD 1.2.1]
 [Info   :   BepInEx] Loading [Utilla 1.7.0]
 ```
 
@@ -58,7 +58,7 @@ Download only **`BibleVerseMOTD.dll`** from the release.
 
 ## Configuration
 
-`BepInEx/config/com.luked.bibleversemotd.cfg`
+`BepInEx/config/com.frostytagyt.bibleversemotd.cfg`
 
 | Setting | Default | What it does |
 |---------|---------|--------------|

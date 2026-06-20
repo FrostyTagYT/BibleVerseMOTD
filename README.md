@@ -1,5 +1,7 @@
 # Bible Verse MOTD
 
+**Made by [FrostyTagYT](https://github.com/FrostyTagYT)**
+
 A client-side **BepInEx** mod for **Gorilla Tag (Steam/PC)** that replaces the stump **Message of the Day** board with a random Bible verse.
 
 The physical board stays in the forest stump — only the content changes.
@@ -24,7 +26,7 @@ See **[INSTALL.md](INSTALL.md)** for the full guide.
 
 ### Full package (recommended — includes BepInEx + Utilla)
 
-Download **`BibleVerseMOTD-FullInstall-v1.2.0.zip`** from the [latest release](https://github.com/FrostyTagYT/BibleVerseMOTD/releases/latest).
+Download **`BibleVerseMOTD-FullInstall-v1.2.1.zip`** from the [latest release](https://github.com/FrostyTagYT/BibleVerseMOTD/releases/latest).
 
 Extract everything into your **Gorilla Tag folder** (where `Gorilla Tag.exe` is). This bundle includes the tested working setup:
 
@@ -32,7 +34,7 @@ Extract everything into your **Gorilla Tag folder** (where `Gorilla Tag.exe` is)
 |-----------|---------|
 | BepInEx | 5.4.23.5 |
 | Utilla | 1.7.0 |
-| Bible Verse MOTD | 1.2.0 |
+| Bible Verse MOTD | 1.2.1 |
 
 ### Mod only (if you already have BepInEx)
 
@@ -56,7 +58,7 @@ Extract everything into your **Gorilla Tag folder** (where `Gorilla Tag.exe` is)
 
 After first launch, edit:
 
-`BepInEx/config/com.luked.bibleversemotd.cfg`
+`BepInEx/config/com.frostytagyt.bibleversemotd.cfg`
 
 | Setting | Default | Description |
 |---------|---------|-------------|
@@ -82,7 +84,7 @@ The stump MOTD board normally pulls update info from PlayFab — sometimes as te
 
 ## Uninstall
 
-Delete `BepInEx/plugins/BibleVerseMOTD.dll` and optionally `BepInEx/config/com.luked.bibleversemotd.cfg`.
+Delete `BepInEx/plugins/BibleVerseMOTD.dll` and optionally `BepInEx/config/com.frostytagyt.bibleversemotd.cfg`.
 
 ## Disclaimer
 
