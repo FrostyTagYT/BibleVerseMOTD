@@ -2,7 +2,7 @@
 
 **Made by [FrostyTagYT](https://github.com/FrostyTagYT)**
 
-A client-side **BepInEx** mod for **Gorilla Tag (Steam/PC)** that replaces the stump **Message of the Day** board with a random Bible verse.
+A client-side mod for **Gorilla Tag (Steam/PC)** that replaces the stump **Message of the Day** board with a random Bible verse.
 
 The physical board stays in the forest stump — only the content changes.
 
@@ -18,25 +18,12 @@ The physical board stays in the forest stump — only the content changes.
 ## Requirements
 
 - Gorilla Tag on **Steam (PC)**
-- [BepInEx 5.x](https://docs.bepinex.dev/) installed for Gorilla Tag
 
 ## Installation
 
 See **[INSTALL.md](INSTALL.md)** for the full guide.
 
-### Full package (recommended — includes BepInEx + Utilla)
-
-Download **`BibleVerseMOTD-FullInstall-v1.2.1.zip`** from the [latest release](https://github.com/FrostyTagYT/BibleVerseMOTD/releases/latest).
-
-Extract everything into your **Gorilla Tag folder** (where `Gorilla Tag.exe` is). This bundle includes the tested working setup:
-
-| Component | Version |
-|-----------|---------|
-| BepInEx | 5.4.23.5 |
-| Utilla | 1.7.0 |
-| Bible Verse MOTD | 1.2.1 |
-
-### Mod only (if you already have BepInEx)
+### Mod only
 
 1. Download `BibleVerseMOTD.dll` from the [latest release](https://github.com/FrostyTagYT/BibleVerseMOTD/releases/latest)
 2. Drop it into `Gorilla Tag/BepInEx/plugins/`
@@ -88,7 +75,7 @@ Delete `BepInEx/plugins/BibleVerseMOTD.dll` and optionally `BepInEx/config/com.f
 
 ## Disclaimer
 
-This product is not affiliated with Gorilla Tag or Another Axiom LLC and is not endorsed or otherwise sponsored by Another Axiom LLC. Portions of the materials contained herein are property of Another Axiom LLC. ©2021 Another Axiom LLC.
+This product is not affiliated with Gorilla Tag or Another Axiom LLC and is not endorsed or otherwise sponsored by Another Axiom LLC. Portions of the materials contained herein are property of Another Axiom LLC.
 
 ## License
 
