@@ -23,7 +23,7 @@ Hey everyone! I made a client-side mod that replaces the **Message of the Day bo
 3. Launch the game and go to the stump — the board should show a verse
 
 **Download / source:**
-https://github.com/BlankSlate-II/BibleVerseMOTD/releases/latest
+https://github.com/FrostyTagYT/BibleVerseMOTD/releases/latest
 
 **Config** (optional): `BepInEx/config/com.luked.bibleversemotd.cfg`
 - Change header text, turn debug logging on/off, etc.

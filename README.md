@@ -22,7 +22,7 @@ The physical board stays in the forest stump — only the content changes.
 
 ### Easy (download release)
 
-1. Download `BibleVerseMOTD.dll` from the [latest release](https://github.com/BlankSlate-II/BibleVerseMOTD/releases/latest)
+1. Download `BibleVerseMOTD.dll` from the [latest release](https://github.com/FrostyTagYT/BibleVerseMOTD/releases/latest)
 2. Drop it into your Gorilla Tag `BepInEx/plugins` folder:
    ```
    Gorilla Tag/BepInEx/plugins/BibleVerseMOTD.dll
