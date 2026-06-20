@@ -15,18 +15,23 @@ Hey everyone! I made a client-side mod that replaces the **Message of the Day bo
 
 **Requirements:**
 - Gorilla Tag on **Steam PC**
-- **BepInEx** installed
 
-**Install:**
-1. Download `BibleVerseMOTD.dll` from the release below
-2. Put it in `Gorilla Tag/BepInEx/plugins/`
+**Install (easy — full package with BepInEx + Utilla included):**
+1. Download **`BibleVerseMOTD-FullInstall-v1.2.0.zip`** from the release below
+2. Extract **everything** into your Gorilla Tag folder (where `Gorilla Tag.exe` is)
 3. Launch the game and go to the stump — the board should show a verse
 
-**Download / source:**
+**Already have BepInEx?** Just grab `BibleVerseMOTD.dll` from the same release and put it in `BepInEx/plugins/`.
+
+**Full package includes (tested working setup):**
+- BepInEx 5.4.23.5
+- Utilla 1.7.0
+- Bible Verse MOTD 1.2.0
+
+**Download:**
 https://github.com/FrostyTagYT/BibleVerseMOTD/releases/latest
 
 **Config** (optional): `BepInEx/config/com.luked.bibleversemotd.cfg`
-- Change header text, turn debug logging on/off, etc.
 
 Let me know if anything breaks or if you want more verses / a different translation! 🙏
 

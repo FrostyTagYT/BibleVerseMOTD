@@ -20,13 +20,24 @@ The physical board stays in the forest stump — only the content changes.
 
 ## Installation
 
-### Easy (download release)
+See **[INSTALL.md](INSTALL.md)** for the full guide.
+
+### Full package (recommended — includes BepInEx + Utilla)
+
+Download **`BibleVerseMOTD-FullInstall-v1.2.0.zip`** from the [latest release](https://github.com/FrostyTagYT/BibleVerseMOTD/releases/latest).
+
+Extract everything into your **Gorilla Tag folder** (where `Gorilla Tag.exe` is). This bundle includes the tested working setup:
+
+| Component | Version |
+|-----------|---------|
+| BepInEx | 5.4.23.5 |
+| Utilla | 1.7.0 |
+| Bible Verse MOTD | 1.2.0 |
+
+### Mod only (if you already have BepInEx)
 
 1. Download `BibleVerseMOTD.dll` from the [latest release](https://github.com/FrostyTagYT/BibleVerseMOTD/releases/latest)
-2. Drop it into your Gorilla Tag `BepInEx/plugins` folder:
-   ```
-   Gorilla Tag/BepInEx/plugins/BibleVerseMOTD.dll
-   ```
+2. Drop it into `Gorilla Tag/BepInEx/plugins/`
 3. Launch Gorilla Tag and check the stump MOTD board
 
 ### Build from source
